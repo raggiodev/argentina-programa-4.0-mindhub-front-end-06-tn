@@ -28,7 +28,6 @@ nav{
 }
 
 .form-control{
-
     background-color: #4c4c4c;
     color:#f0f8ff
 }
@@ -119,6 +118,10 @@ button {
 }
 
 /* FER */
+.no-bullets{
+    list-style-type: none;
+}
+
 .a-li-ul{
     transition: all 0.4s ease-in-out;
     
