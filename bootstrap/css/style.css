@@ -119,12 +119,40 @@ button {
 }
 
 /* FER */
-.a-li-ul-fer{
+.a-li-ul{
     transition: all 0.4s ease-in-out;
     
 }
 
-.a-li-ul-fer:hover{    
+.a-li-ul:hover{    
     color: #fff !important;
     background-color: #0d6eff !important;
+}
+
+/* FACUNDO */
+.img-ftr {
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+}
+
+.terms {
+    font-weight: bold;
+    font-family: "open sans", sans-serif;
+    font-size: 12px;
+}
+
+.container-fluid {
+    font-weight: bold;
+    font-family: "open sans", sans-serif;
+    font-size: 12px;
+}
+
+.text {
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 12px;
+}
+
+.fnegro {
+    width: 450px;
 }
