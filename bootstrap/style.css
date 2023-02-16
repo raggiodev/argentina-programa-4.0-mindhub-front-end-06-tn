@@ -1,0 +1,160 @@
+/* ESTEBAN */
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+nav{
+    position:absolute;
+    height: 5rem;
+}
+
+.navbar-brand{
+    color:#f0f8ff
+}
+
+.loginLogo{
+    width:25px;
+    padding-right:10px;
+    padding-bottom:5px;
+}
+
+.loginButton{
+    background:#161414;
+    color:#f0f8ff;
+    position:absolute;
+    right:20%;
+}
+
+.form-control{
+    background-color: #4c4c4c;
+    color:#f0f8ff
+}
+
+.homeLink{
+    position:absolute;
+    left:45%;
+    color:#888;
+    font-weight:700;
+    font-size:15px;
+    text-decoration:none;
+}
+
+.animeBankLink{
+    position:absolute;
+    left:50%;
+    color:#888;
+    font-weight:700;
+    font-size:15px;
+    text-decoration:none;
+}
+
+.searchLogo{
+    width:25px;
+    z-index: 1;
+    position:absolute;
+    top:20%;
+    right:1%;
+}
+
+.logoface{
+    width:35px;
+    position:absolute;
+    top:30%;
+    right:17.5%;
+    z-index: 1;
+    position:absolute;
+}
+
+.form-inline{
+    position:absolute;
+    left:60%;
+}
+
+.logoanime{
+    position:absolute;
+    left:20%;
+}
+
+.linkKotori{
+    text-align:center;
+    width:100%;
+    left:0px;
+    position:absolute;
+    background:#f00;
+    text-decoration:none;
+    color:#fff;
+    height:20px;
+    font-size:15px;
+}
+
+/* CHRISTIAN */
+.filtros {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.titulo>h3 {
+    color: #3b4248;
+
+}
+
+.titulo>img {
+    height: 40px;
+    width: auto;
+}
+
+button {
+    border: 1px solid #808080 !important;
+
+}
+
+/* FER */
+.no-bullets{
+    list-style-type: none;
+}
+
+.a-li-ul{
+    transition: all 0.4s ease-in-out;
+}
+
+.a-li-ul:hover{    
+    color: #fff !important;
+    background-color: #0d6eff !important;
+}
+
+/* FACUNDO */
+.img-ftr {
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+}
+
+.terms {
+    font-weight: bold;
+    font-family: "open sans", sans-serif;
+    font-size: 12px;
+}
+
+.container-fluid {
+    font-weight: bold;
+    font-family: "open sans", sans-serif;
+    font-size: 12px;
+}
+
+.text {
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 12px;
+}
+
+.fnegro {
+    width: 450px;
+}
