@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+fieldset{
+    margin-top: 5rem;
+    width: 50%;
+    border: none;
+}
+.inputs-container{
+    display: flex;
+    gap: 1rem;
+}
+
+#container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+.pokemon-card {
+    border: 1px solid black;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+}
+.col{
+    flex-direction: column;
+}
+.between{
+    justify-content: space-between;
+}
