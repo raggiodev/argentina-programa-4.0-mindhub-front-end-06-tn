@@ -81,14 +81,39 @@ option{
     border-radius: 0 0 5px 5px;
     background-color: red;
     color: darkblue;
+    font-weight: 600;
 }
 .pokemon-card>div>p:first-child{
-  background-color: greenyellow;
+    background-color: greenyellow;
+    font-weight: 600;
 }
 .pokemon-card>div>p:last-child{
     background-color: gray;
 }
-
+.pokemon-card>img{
+    width: 100%;
+    height: 17em;
+    object-fit: cover;
+    border: 12px solid darkblue;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: 600;
+}
+.pokemon-card:hover>img{
+    animation: img 1.4s ease-in-out infinite alternate;
+    transition: .25s;
+}
+@keyframes img {
+    from{
+        filter:brightness(100%) ;
+    }
+    50%{
+        
+        filter:brightness(130%) ;
+    }
+    to{
+        filter:brightness(100%) ;
+    }
+}
 .flex{
     display: flex;
 }
