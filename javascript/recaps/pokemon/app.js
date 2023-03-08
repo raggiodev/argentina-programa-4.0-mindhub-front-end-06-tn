@@ -11,7 +11,8 @@ const crearPokemones = (array, container) => {
     container.innerHTML = "" // para limpiar el contenedor cada vez que ejecutamos la función
     if (array.length < 1) { // si el array está vacío, agregamos el mensaje de que no se encontró ningún Pokemon
         let mensaje = document.createElement('p')
-        mensaje.textContent = "No se encontró ningún Pokemon"
+        mensaje.textContent = "No se encontró ningún Pokemon con este nombre"
+        mensaje.style.fontWeight = "600"
         mensaje.style.color = "black"
         container.appendChild(mensaje)
     } else { // si hay elementos en el array, creamos los elementos HTML de los pokemones
@@ -72,7 +73,7 @@ const pintarSelect = (array, container) => { // Creo menú despñlegable con c/t
 }
 
 pintarSelect(tipos, $selectContainer) // llamo a la func. encargada de pintar el menu en el html element $selectContainer
-let $select = document.getElementsByTagName("select")[0]; // selecciona "select" del HTML y lo asigna a la var(let) "$select". // Esta let se usrá para capturar el valor que seleccione el usuario seguime en instagram @joeraggio (perdón(?)
+let $select = document.getElementsByTagName("select")[0]; // selecciona "select" del HTML y lo asigna a la var(let) "$select". // Esta let se usrá para capturar el valor que seleccione el usuario seguí en insta a Seba y a Fer (perdón(?)
 
 
 const filtrarSelect = (array, value) => { // array pokes y el "value" es el tipo de poke seleccionado por el querido user en el menú desplegable
