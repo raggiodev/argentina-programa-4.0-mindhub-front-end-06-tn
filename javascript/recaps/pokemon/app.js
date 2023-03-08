@@ -11,7 +11,7 @@ const crearPokemones = (array, container) => {
     container.innerHTML = "" // para limpiar el contenedor cada vez que ejecutamos la función
     if (array.length < 1) { // si el array está vacío, agregamos el mensaje de que no se encontró ningún Pokemon
         let mensaje = document.createElement('p')
-        mensaje.textContent = "No se encontró ningún Pokemon con este nombre"
+        mensaje.textContent = "No se encontró ningún Pokemon :("
         mensaje.style.fontWeight = "600"
         mensaje.style.color = "black"
         container.appendChild(mensaje)
@@ -23,13 +23,14 @@ const crearPokemones = (array, container) => {
             card.innerHTML = `
                 <h4>Nombre: ${pokemon.name}</h4>
                 <p>Tipo: ${pokemon.type[0]}</p>
-                <img src="https://cf.geekdo-images.com/V9pkzNgoXitxhCjLhOKkPA__itemrep/img/4M61kAEyEc9VW9MvKQTCtpw3PZA=/fit-in/246x300/filters:strip_icc()/pic1807805.jpg" alt="${pokemon.name}"/>
+                <img src="${pokemon.img}" alt="${pokemon.name}"/>
                 <div class="flex between">
                     <p>Vida: ${pokemon.hp}%</p>
                     <p>Ataque: ${pokemon.attack}</p>
                     <p>Defensa: ${pokemon.defense}</p>
                 </div>
             `
+            // Antigua img base: <img src="https://cf.geekdo-images.com/V9pkzNgoXitxhCjLhOKkPA__itemrep/img/4M61kAEyEc9VW9MvKQTCtpw3PZA=/fit-in/246x300/filters:strip_icc()/pic1807805.jpg" alt="${pokemon.name}"/>
             container.appendChild(card)
         })
     }
@@ -59,7 +60,7 @@ const pintarSelect = (array, container) => { // Creo menú despñlegable con c/t
     let option = document.createElement('option')
 
     option.setAttribute('value', "") /* seteamos el valor de "selecciona tu poke" en string vacio */
-    option.textContent = "selecciona tu poke"
+    option.textContent = "Selecciona tu Pokemon"
     select.appendChild(option)
 
     array.forEach(tipo => { // itero. p c/t pokemon creo nuevo "option" element
