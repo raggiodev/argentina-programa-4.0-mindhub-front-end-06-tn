@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Amazing Events - Contact</title>
+    <link rel="shortcut icon" href="../assets/ico/Logo_Amazing_Events.ico">
+</head>
+
+<body>
+    <header class="container-fluid d-flex justify-content-around align-items-center bg-black">
+        <figure class="w-50">
+            <a class="img-logo" href="../index.html"><img src="../assets/img/logo/Logo_Amazing_Events.png" alt="Amazing Events Logo"></a>
+        </figure>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse"
+                aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 gap-4">
+                    <li class="nav-item"><a class="nav-link fs-4 text-light" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link fs-4 text-light" href="./upcoming_events.html">Upcoming Events</a></li>
+                    <li class="nav-item"><a class="nav-link fs-4 text-light" href="./past_events.html">Past Events</a></li>
+                    <li class="nav-item"><a class="nav-link fs-4 text-light" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link fs-4 text-light" href="./stats.html">Stats</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="d-flex w-100 flex-column justify-content-center align-items-center flex-grow-1 m-0">
+        <div class="d-flex w-100 bg-dark">
+            <ul class="d-flex w-100 m-0 p-3 fs-2 justify-content-around align-items-center text-light list-unstyled">
+                <li><a class="a-nav-inferior-r text-decoration-none" href="./past_events.html">🡰</a></li>
+                <li><a class="a-nav-inferior-w text-decoration-none" href="./contact.html">Contact</a></li>
+                <li><a class="a-nav-inferior-b text-decoration-none" href="./stats.html">🡲</a></li>
+            </ul>
+        </div>
+        <section class="container-fluid d-flex justify-content-center align-content-center">
+            <form class="d-flex flex-column align-items-center" action="" method="get" target="_blank">
+                <label class="d-flex flex-column text-light m-3" for="name">
+                    <h2>Name:</h2>
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                </label>
+                <label class="d-flex flex-column text-light m-3" for="email">
+                    <h2>Email:</h2>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </label>
+                <label class="d-flex flex-column text-light m-3" for="message">
+                    <h2>Message:</h2>
+                    <textarea class="d-flex justify-content-center align-items-center p-1" name="message" placeholder="Message" id="message" cols="30" rows="5" maxlength="240"></textarea>
+                </label>
+                <input class="btn btn-success d-flex" type="submit" id="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer
+        class="container-fluid d-flex flex-column justify-content-center align-items-center w-100 bg-black mt-4 text-light">
+        <div class="d-flex justify-content-center align-items-center pt-2 pb-1 w-75">
+            <a href="https://www.instagram.com/joeraggio/"><img class="ftr-logo mt-0 mb-0 m-3"
+                    src="../assets/img/logo/Instagram_logo_2016.svg" alt="instagram logo svg"></a>
+            <a href="https://www.facebook.com/"><img class="ftr-logo mt-0 mb-0 m-3"
+                    src="../assets/img/logo/Facebook_icon_2013.svg.png" alt="facebook logo svg"></a>
+            <a href="https://www.whatsapp.com/"><img class="ftr-logo mt-0 mb-0 m-3"
+                    src="../assets/img/logo/WhatsApp_logo-color-vertical.svg.png" alt="whatsapp logo svg"></a>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p>By <a class="ftr-a text-decoration-none" href="https://github.com/JoeTheorium">Fernando Andrés Raggio -
+                    JoeTheorium</a> | Argentina Programa 4.0 + MindHub - Cohort FE06-TN © 2023 All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
