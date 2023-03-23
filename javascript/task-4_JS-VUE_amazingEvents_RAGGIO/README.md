@@ -1,1 +1,1 @@
-# Amazing Events - Task 4
+# Amazing Events - Task 4 - JS VUE
