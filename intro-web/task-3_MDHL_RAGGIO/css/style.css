@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../assets/img/background-website.jpg);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f40;
+}
+
+h1{
+    color: #000;
+    text-shadow: 0 0 #000;
+}
+
+.logo, .logo-2{
+    position: absolute;
+    width: 100px;
+    top: -13px;
+    left: 550px;
+}
+
+.logo-2{
+    left: 1240px;
+}
+
+.main-nav{
+    width: 100%;
+    font-size: 20px;
+    background-color: #00000040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-nav{
+    margin: 5px;
+    padding: 0 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-fig{
+    width: 750px;
+}
+
+section{
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+h2{
+    padding: 15px;
+    font-size: xx-large;
+    text-shadow: 0.5px 0.5px #f40;
+}
+
+article{
+    padding: 5px;
+}
+
+.article-gi{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    font-size: x-large;
+}
+
+.h3-rls{
+    padding: 30px 5px 10px;
+}
+
+.p-rls{
+    text-align: center;
+    text-indent: 15px;
+}
+
+.h3-gi, .p-gi{
+    padding: 5px;
+    font-style: oblique;
+    text-align: start;
+    text-indent: 570px;
+}
+
+.p-gi{
+    text-decoration: underline;
+}
+
+table{
+    height: 20vh;
+    width: 40rem;
+    caption-side: bottom;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, th, td{
+    padding: 10px;
+    border: 1px solid;
+}
+
+address{
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
